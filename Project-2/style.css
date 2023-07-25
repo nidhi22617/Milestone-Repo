@@ -233,24 +233,125 @@
 .pricing-card-container {
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 3px;
 }
-/* Pricing Card */
-
+/* Pricing Card start*/
+.pricing-card>p{
+  text-align: center;
+  padding: 10px 40px;
+  font-size: 1.5rem;
+}
+.pricing-card-middle>p{
+  text-align: center;
+  padding: 10px 40px;
+  font-size: 1.5rem;
+}
 .pricing-card {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  border: 1px solid red;
-  width: 200px;
+  border: 1px solid #00b7ff;
+  border-radius: 10px;
+  width: 300px;
   height: 500px;
+  
 }
-.pricing-card{
-  text-align: center;
+.pricing-card-middle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #0a0a0a;
+  border: 1px solid #00b7ff;
+  color: white;
+  border-radius: 10px;
+  width: 300px;
+  height: 550px;
+}
+.price-rate{
+  display: flex;
+  gap: 10px;
+  color: #249aef;
 }
 .price{
+ font-size: 2rem;  
+}
+.pricepermonth {
+  padding-top: 10px;
+  font-size: 1rem;
+}
+.facilities{
+  display: block;
+}
+.facilities i{
+  margin: 0px 10px;
+  display: inline;
+}
+.pricing-card-container button{
+  width: 200px;
+  height: 40px;
+  background-color: #249aef;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+/* Pricing Card */
+/* Subscription Section Start */
+.subscription{
+width: 100%;
+height: 150px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-color: #111010;
+color: white;
+
+}
+.getintouch{
+  margin: 10px 100px;
+}
+.getintouch>p{
+  margin-right: 200px;
+  font-size: 90%;
+  padding-bottom: 10px;
+  line-height: 1.8;
+  
+}
+.email{
+  width: 400px;
+  margin-right: 150px;
+  
+}
+.email>input{
+  height: 30px;
+  
+}
+.email>button{
+  background-color:#249aef ;
+  height: 30px;
+  width: 80px;
+  border:none;
+  border-radius: 5px;
+}
+/* Subscription Section End */
+/* Footer Section Start */
+
+.footer{
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 2;
  
- 
-  gap: 10px;
+}
+.column{
+  display: inline-block;
+}
+.column a{
+  display: block;
+  text-decoration: none;
+  color: black;
 }
 
+/* Footer Section End */
